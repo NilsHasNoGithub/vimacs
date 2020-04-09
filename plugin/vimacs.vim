@@ -179,7 +179,7 @@ set backspace=indent,eol,start
 " (This has got to be the coolest option name ever, btw)
 set wildcharm=<Tab>
 " Recognise key sequences that start with <Esc> in Insert Mode
-set esckeys
+" set esckeys
 
 
 "
@@ -200,7 +200,7 @@ if has("unix") && !has("gui_running") && g:VM_UnixConsoleMetaSendsEsc
   "  let charCode = charCode + 1
   "endwhile
   "unlet charCode
- set <M-1>=1
+ " set <M-1>=1
  set <M-2>=2
  set <M-3>=3
  set <M-4>=4
